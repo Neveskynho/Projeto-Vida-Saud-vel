@@ -70,7 +70,10 @@ function animateOnScroll() {
 // ===================== POPUP =====================
 
 function showUpgradePopup(e) {
-    if (e) e.preventDefault();
+    if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+    }
     const popup = document.getElementById("upgrade-popup");
     if (popup) {
         popup.classList.add("active");
