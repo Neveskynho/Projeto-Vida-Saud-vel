@@ -8,42 +8,42 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Utmify Pixel -->
+    <script>
+      window.pixelId = "6a0eea033da991af3b99f309";
+      var a = document.createElement("script");
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+      document.head.appendChild(a);
+    </script>
 
-	<script>
-	  window.pixelId = "6a0eea033da991af3b99f309";
-	  var a = document.createElement("script");
-	  a.setAttribute("async", "");
-	  a.setAttribute("defer", "");
-	  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-	  document.head.appendChild(a);
-	</script>
-	
-	<script
-	  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-	  data-utmify-prevent-xcod-sck
-	  data-utmify-prevent-subids
-	  async
-	  defer
-	></script>
-	
-	<!-- Meta Pixel Code -->
-	<script>
-	!function(f,b,e,v,n,t,s)
-	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-	n.queue=[];t=b.createElement(e);t.async=!0;
-	t.src=v;s=b.getElementsByTagName(e)[0];
-	s.parentNode.insertBefore(t,s)}(window, document,'script',
-	'https://connect.facebook.net/en_US/fbevents.js');
-	fbq('init', '996777316173655');
-	fbq('track', 'PageView');
-	</script>
-	<noscript><img height="1" width="1" style="display:none"
-	src="https://www.facebook.com/tr?id=996777316173655&ev=PageView&noscript=1"
-	/></noscript>
-	<!-- End Meta Pixel Code -->
-    
+    <!-- Utmify UTMs -->
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-xcod-sck
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
+
+    <!-- Meta Pixel -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '996777316173655');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=996777316173655&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel -->
 </head>
 <body>
 
@@ -128,29 +128,55 @@
         </div>
     </section>
 
-    <!-- PRÉVIA DO MATERIAL -->
-    <section class="preview-section">
+    <!-- O QUE VOCÊ RECEBE -->
+    <section class="what-you-get">
         <div class="container">
-            <div class="preview-header">
-                <span class="preview-label">Confira como é o seu material por dentro</span>
-                <p class="preview-subtitle">Dê uma espiada no conteúdo completo que vai chegar para você — receitas, organização, detalhes nutricionais e muito mais.</p>
-            </div>
-            <div class="video-wrapper">
-                <div class="video-frame">
-                    <iframe
-                        src="https://player.vimeo.com/video/1196823850?badge=0&autopause=0&player_id=0&app_id=58479"
-                        title="Prévia do Material — 300+ Receitas Saudáveis"
-                        frameborder="0"
-                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                        allowfullscreen>
-                    </iframe>
+            <h2 class="section-title">O Que Você Vai Receber</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-book-open"></i></div>
+                    <h3>+300 Receitas Completas</h3>
+                    <p>Café da manhã, almoço, jantar, lanches e sobremesas saudáveis — tudo organizado e explicado passo a passo.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-fire-alt"></i></div>
+                    <h3>Calorias e Macros</h3>
+                    <p>Cada receita acompanha informações nutricionais para você controlar sua alimentação com precisão.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Acesso no Celular</h3>
+                    <p>Consulte as receitas direto pelo celular, tablet ou computador — sempre que precisar, onde estiver.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-infinity"></i></div>
+                    <h3>Acesso Vitalício</h3>
+                    <p>Pague uma vez e acesse para sempre. Sem mensalidade, sem renovação, sem prazo de validade.</p>
                 </div>
             </div>
-            <div class="preview-cta">
-                <p class="preview-cta-text">Gostou do que viu? Garanta o seu acesso agora!</p>
-                <button class="cta-button preview-cta-btn" onclick="scrollToPlans()">
-                    <i class="fas fa-shopping-cart"></i> QUERO MEU ACESSO
-                </button>
+        </div>
+    </section>
+
+    <!-- PARA QUEM É -->
+    <section class="for-who">
+        <div class="container">
+            <h2 class="section-title">Para Quem É Este Material</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card green-card">
+                    <div class="benefit-icon green-icon"><i class="fas fa-weight"></i></div>
+                    <h3>Quem Quer Emagrecer</h3>
+                    <p>Receitas de baixa caloria, com ingredientes acessíveis e muito sabor — sem passar fome e sem dietas radicais.</p>
+                </div>
+                <div class="benefit-card green-card">
+                    <div class="benefit-icon green-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3>Quem Pratica Esportes</h3>
+                    <p>Receitas ricas em proteína e nutrientes para ajudar na performance e na recuperação muscular.</p>
+                </div>
+                <div class="benefit-card green-card">
+                    <div class="benefit-icon green-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Quem Quer Saúde</h3>
+                    <p>Ideal para quem busca uma alimentação equilibrada no dia a dia, sem complicação e sem sofrimento.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -214,9 +240,9 @@
                     <h3>Plano Básico</h3>
                     <div class="price">
                         <span class="old-price">R$97</span>
-                        <span class="new-price">R$10</span>
+                        <span class="new-price">R$10,00</span>
                         <span class="period">pagamento único</span>
-                        <div class="savings-amount">Você economiza R$80,00</div>
+                        <div class="savings-amount">Você economiza R$87,00</div>
                     </div>
                     <ul class="plan-features">
                         <li><i class="fas fa-check"></i> +300 Receitas Saudáveis</li>
@@ -238,7 +264,7 @@
                         <span class="old-price">R$208</span>
                         <span class="new-price">R$27,00</span>
                         <span class="period">pagamento único</span>
-                        <div class="savings-amount">Você economiza R$171,00 + R$121 em bônus</div>
+                        <div class="savings-amount">Você economiza R$181,00 + R$121 em bônus</div>
                     </div>
                     <div class="premium-social-proof">
                         <p class="purchase-count">🔥 +2.341 pessoas escolheram esta oferta</p>
@@ -398,10 +424,10 @@
             <h3 class="popup-title">⚡ Espere! Oferta Exclusiva</h3>
             <p class="popup-subtitle"><strong>FAÇA UPGRADE PARA O PREMIUM COM DESCONTO EXTRA</strong></p>
             <div class="popup-price">
-                <span class="popup-old-price">De R$37,00</span>
+                <span class="popup-old-price">De R$27,00</span>
                 <span class="popup-new-price">R$17,00</span>
             </div>
-            <p class="popup-savings">ECONOMIZE R$20 AGORA!</p>
+            <p class="popup-savings">ECONOMIZE R$10 AGORA!</p>
             <ul class="popup-benefits">
                 <li><span class="popup-check">✔</span> +300 Receitas Saudáveis completas</li>
                 <li><span class="popup-check">✔</span> Informações nutricionais detalhadas</li>
