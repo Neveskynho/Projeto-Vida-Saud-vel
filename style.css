@@ -1019,3 +1019,18 @@ html { scroll-behavior: smooth }
     border-radius: 12px;
     object-fit: cover;
 }
+
+/* ===================== BONUS PRICE + GRATIS ===================== */
+.bonus-de {
+    text-decoration: line-through;
+    color: #94a3b8;
+    font-size: 1rem;
+    margin-right: 6px;
+}
+
+.bonus-gratis {
+    color: #f4756b;
+    font-weight: 800;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+}
