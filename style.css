@@ -404,10 +404,8 @@ section { padding: 80px 0 }
 }
 
 .bonus-value {
-    color: #ef4444;
     font-weight: 700;
     font-size: 1.1rem;
-    text-decoration: line-through;
     margin: 6px 0 12px
 }
 
