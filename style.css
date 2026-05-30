@@ -990,3 +990,16 @@ html { scroll-behavior: smooth }
     border-radius: 50%;
     display: block;
 }
+
+/* ===================== HERO VIDEO ===================== */
+.hero-video {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.hero-video .video-frame {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 0 4px rgba(34,197,94,0.3), 0 24px 48px rgba(0,0,0,0.4);
+}
